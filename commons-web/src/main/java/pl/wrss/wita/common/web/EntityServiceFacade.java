@@ -9,6 +9,7 @@ import pl.wrss.wita.common.model.querydsl.TypedPage;
 import pl.wrss.wita.common.service.FilterableEntityService;
 import pl.wrss.wita.common.service.MappingService;
 import pl.wrss.wita.common.utils.GenericHelper;
+import pl.wrss.wita.common.web.dto.PageDto;
 
 import java.util.Collection;
 import java.util.List;
