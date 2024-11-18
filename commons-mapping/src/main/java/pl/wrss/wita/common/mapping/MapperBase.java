@@ -1,6 +1,6 @@
 package pl.wrss.wita.common.mapping;
 
-import pl.wrss.wita.common.model.entity.scheme.IdSupport;
+import pl.wrss.wita.common.model.scheme.IdSupport;
 import pl.wrss.wita.common.utils.GenericHelper;
 
 import java.lang.reflect.Array;

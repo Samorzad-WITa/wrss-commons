@@ -1,7 +1,7 @@
 package pl.wrss.wita.common.web.dto;
 
 import lombok.Data;
-import pl.wrss.wita.common.model.entity.scheme.IdSupport;
+import pl.wrss.wita.common.model.scheme.IdSupport;
 
 import java.util.UUID;
 

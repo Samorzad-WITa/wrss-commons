@@ -20,7 +20,6 @@ import pl.wrss.wita.common.security.permission.UserRolePermissionGranter;
 import pl.wrss.wita.common.service.UserService;
 
 import java.util.Set;
-import java.util.UUID;
 
 @Service
 public class UserServiceImpl extends FilterableEntityServiceBase<User, UserFilter> implements UserService {

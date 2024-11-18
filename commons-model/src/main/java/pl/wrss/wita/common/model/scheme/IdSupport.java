@@ -1,4 +1,4 @@
-package pl.wrss.wita.common.model.entity.scheme;
+package pl.wrss.wita.common.model.scheme;
 
 import java.util.UUID;
 
