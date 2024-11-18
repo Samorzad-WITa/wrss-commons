@@ -1,6 +1,6 @@
 package pl.wrss.wita.common.mapping;
 
-
+import pl.wrss.wita.common.model.entity.scheme.IdSupport;
 import pl.wrss.wita.common.utils.GenericHelper;
 
 import java.lang.reflect.Array;
@@ -94,6 +94,13 @@ public abstract class MapperBase<S, D, P extends MappingProperties> implements M
             return (T)destinationType.getConstructor().newInstance();
         } catch (InstantiationException | IllegalAccessException | InvocationTargetException | NoSuchMethodException ex) {
             throw new IllegalStateException("Could not create destination instance", ex);
+        }
+    }
+
+    @Override
+    public void transform(S source, D destination, P properties) {
+        if(source instanceof IdSupport src && destination instanceof IdSupport dst) {
+            dst.setId(src.getId());
         }
     }
 }

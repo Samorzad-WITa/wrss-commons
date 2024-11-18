@@ -1,4 +1,4 @@
-package pl.wrss.wita.common.web;
+package pl.wrss.wita.common.web.dto;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
